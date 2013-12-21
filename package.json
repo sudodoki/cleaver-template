@@ -1,0 +1,25 @@
+{
+  "name": "cleaver-template",
+  "version": "0.0.0",
+  "description": "Sample template to get jump-start with awesome cleaver slide generator",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slides",
+    "cleaver",
+    "slideshows",
+    "template"
+  ],
+  "author": "sudodoki",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "cleaver": "~0.5.5",
+    "grunt-shell": "~0.6.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.2.1",
+    "grunt-contrib-connect": "~0.5.0"
+  }
+}
