@@ -4,8 +4,7 @@
   "description": "Sample template to get jump-start with awesome cleaver slide generator",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node_modules/.bin/watchify js/src/main.js -o js/build.js -dv"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "slides",
