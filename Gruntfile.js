@@ -26,6 +26,9 @@ module.exports = function (grunt) {
           if (!filename) {filename = 'index'};
           console.log('building your presenation ' + filename + '.md')
           return "node_modules/.bin/cleaver " + filename + '.md'
+        },
+        options: {
+          stdout: true
         }
       }
     }
