@@ -23,7 +23,7 @@ module.exports = function (grunt) {
     shell: {
       presentation: {
         command: function (filename) {
-          if (!filename) {filename = 'index'};
+          if (!filename) {filename = grunt.option('filename') || 'index' };
           console.log('building your presenation ' + filename + '.md')
           return "node_modules/.bin/cleaver " + filename + '.md'
         },
