@@ -15,6 +15,12 @@ Steps:
 
 Both tasks will also start the static server at 8080 and open it in your browser
 
+Cleaver doesn't run on my Windows, what to do?
+==============================================
+
+Probably the issue is with your shell. Try changing [this line](https://github.com/sudodoki/cleaver-template/blob/master/Gruntfile.js#L28) to be `return "cleaver " + filename + '.md'` and install cleaver globally via `npm install -g cleaver`.
+
+
 Have any question/proposals?
 ============================
 
